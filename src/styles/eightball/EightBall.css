@@ -1,0 +1,76 @@
+.eightBall {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  flex-direction: column; 
+}
+
+.form__control {
+  width: 300px; 
+  height: 50px; 
+  text-align: center; 
+  font-size: 14px; 
+  border-radius: 5px; 
+  border: 2px solid #f59212; 
+}
+
+.form__note {
+  margin: 10px 0; 
+  font-size: 14px;
+  color: rgba(248, 178, 73, 0.8);  
+  font-weight: 500; 
+  font-style: italic; 
+  text-align: center; 
+}
+
+.eightBall__container {
+  display: flex; 
+  height: 350px; 
+  width: 350px; 
+  background-color: #000; 
+  border-radius: 50%; 
+  position: relative; 
+  margin: 50px 0; 
+}
+
+.shake {
+  animation: shake 0.5s ease-in-out; 
+}
+
+@keyframes shake {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(-15px, 15px); }
+  50% { transform: translate(15px, -15px); }
+  75% { transform: translate(-15px, 15px); }
+  100% { transform: translate(0, 0); }
+}
+
+.eightBall__inner {
+  display: flex; 
+  height: 300px; 
+  width: 300px; 
+  background-color: #eaeaea;
+  position: absolute; 
+  border-radius: 50%; 
+  top: 25px; 
+  left: 25px; 
+}
+
+.eightBall__content {
+  height: 250px; 
+  width: 250px; 
+  position: absolute; 
+  top: 30px; 
+  left: 25px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+  overflow: hidden; 
+}
+
+.eightBall__content p {
+  font-size: 18px; 
+  font-weight: bold; 
+  font-style: italic; 
+}

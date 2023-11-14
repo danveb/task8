@@ -46,7 +46,7 @@ export default function EightBall() {
           onChange={(e: React.ChangeEvent<HTMLInputElement>) => setTodo(e.target.value)}
           className="form__control"
         />
-        <p className="form__note">Note: click on the 8Ball to shake it!</p>
+        <p className="form__note">note: click on the 8Ball to shake it!</p>
       </form>
     </div>
   )

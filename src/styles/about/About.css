@@ -1,0 +1,32 @@
+.about {
+  width: 100%; 
+  height: calc(100dvh - 80px); 
+  /* background-color: #fad2d2;  */
+  background-color: var(--rich-black); 
+}
+
+.about__wrapper {
+  display: flex; 
+  flex-direction: row; 
+  align-items: flex-start; 
+}
+
+.about__top,
+.about__bottom {
+  flex: 1; 
+  display: flex; 
+  flex-direction: column; 
+  margin: 20px 10px; 
+  color: var(--snow-white); 
+}
+
+.about__top h1,
+.about__top p {
+  color: var(--snow-white); 
+}
+
+@media screen and (max-width: 768px) {
+  .about__wrapper {
+    flex-direction: column; 
+  }
+}

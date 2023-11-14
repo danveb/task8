@@ -1,27 +1,15 @@
-# React + TypeScript + Vite
+# Task8 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Let's play Task8! 
 
-Currently, two official plugins are available:
+### Requirement
+- A user can begin by entering a todo and the 8Ball will populate with a list of todos. When ready, the user can click on the 8Ball and it will shake. It will output the first task to complete. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Development
+- React/TypeScript 
 
-## Expanding the ESLint configuration
+### Testing
+- Vite + React Testing Library
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Deployment
+- Vercel
